@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
+  <title>Syed SteakHouse</title>
+</head>
+
+<body>
+
+  <!-- Navbar - START -->
+  <header>
+    <nav class="my-nav nav navbar navbar-expand-sm bg-transparent fixed-top ">
+      <div class="container">
+        <a class="navbar-brand my-brand" href="">
+          <h2>Syed SteakHouse</h2>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-utensils"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto montserrat">
+            <li class="nav-item">
+              <a class="nav-link" href="">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu-area">MENU</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="">EVENTS</a>
+              <div class="dropdown-menu bg-black" id="my-dropdown-menu">
+                <a href="" class="dropdown-item bg-black">
+                  <i class="fas fa-wine-glass-alt"></i> Corporate Booking</a>
+                <a href="" class="dropdown-item bg-black">
+                  <i class="fas fa-birthday-cake"></i> Birthday Booking</a>
+                <a href="" class="dropdown-item bg-black">
+                  <i class="fas fa-heart"></i> Date Night</a>
+                <a href="" class="dropdown-item bg-black">
+                  <i class="fas fa-heartbeat"></i> Anniversary</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar - END -->
+
+  <!-- Carousel - START -->
+  <div id="my-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#my-carousel" data-slide-to="1"></li>
+      <li data-target="#my-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 " id="carousel-img1" src="images/doosra.jpg" alt="First slide">
+        <div class="carousel-caption" id="carousel-txt">
+          <h3 class="montserrat">EXCELLENCE || PERFECTION</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" id="carousel-img2" src="images/alcohol.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" id="carousel-img3" src="images/three.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Carousel - END -->
+
+  <!-- About Us - START -->
+
+  <section>
+    <div class="position-relative justify-content-center row about-us container pb-5 m-auto">
+      <div class="col-sm-12 col-md-12 col-lg-12 about-us-text mt-5 mb-5 text-center montserrat ">
+        <h1>ABOUT US</h1>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4 pl-3 pr-1 mb-3">
+        <h5 class="text-secondary"> SPECIALITY OF THE HOUSE</h5>
+        <h1>EXPLORE OUR RENOWNED STEAKS</h1>
+        <p> Discover our variety of handpicked world-class steaks with the best cut cooked to perfection as per your customizations
+          </p>
+        <button class="btn my-btn">
+          <p class="mb-0">EXPLORE</p>
+        </button>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="w-100" src="images/steak-closeup-one.jpg" alt="Steak Image">
+        <h4 class="pt-2">OUR STORY</h4>
+        <p>In 1947, we were awarded the best steakhouse in the country within just one year of operation. We have proudly held
+          the legacy of our title ever since.
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="w-100" src="images/cook.jpg" alt="Chef Image">
+        <h4 class="pt-2">OUR MASTER CHEFS</h4>
+        <p>Our highly experienced 5 Michelin stars holding chef's make sure that our customers are served nothing short of pure
+          perfection.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us - END -->
+
+  <!-- Art Of Food - START -->
+  <div class="art col-sm-12 col-md-12 col-lg-12 w-100 row m-auto p-0">
+    <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+      <img src="images/art-food.jpg" alt="" class="w-100">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 p-0 text-center pt-5 pb-5 art-middle  ">
+      <h2 id="art-top-text montserrat">ART OF FOOD</h2>
+      <p id="art-bottom-text h3">"Love and Steak are alike.
+        <br> Can never get enough of either"
+      </p>
+      <button id="art-btn" class="">
+        <p class="mb-0">BOOK NOW</p>
+      </button>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+      <img src="images/spices-one.jpg" alt="" class="w-100">
+    </div>
+  </div>
+  <!-- Art Of Food - END -->
+
+  <!-- Signature Steaks - START -->
+  <section>
+    <div class="position-relative justify-content-center row signature container pb-5 m-auto">
+      <div class="col-sm-12 col-md-12 col-lg-12 about-us-text mt-5 mb-5 text-center  ">
+        <h1 class="montserrat">SIGNATURE STEAKS</h1>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 position-relative ">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/sirloin-steak.jpg" alt="Sirloin Steak Image">
+          <span class=" pricing position-absolute">$69.00</span>
+        </div>
+        <h4 class="pt-2">SIRLOIN PLATTER</h4>
+        <p>New York style Sirloin steak steak served with herbed mashed potatoes and roasted veggies</p>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/salmon-steak.jpg" alt="Salmon Steak Image">
+          <span class=" pricing position-absolute">$69.00</span>
+        </div>
+        <h4 class="pt-2">SMOKED SALMON </h4>
+        <p>Atlantic Salmon steak smoked in BBQ house and served with tarter sauce and assorted veggies</p>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+
+          <img class="w-100" src="images/rib-steak.jpg" alt="In-House Rib Eye Steak Image">
+          <span class=" pricing position-absolute">$69.00</span>
+        </div>
+        <h4 class="pt-2">IN-HOUSE RIBEYE</h4>
+        <p>A 32 oz. Rib Eye steak slow cooked to perfection and served with our in-house signature sauce and chips</p>
+      </div>
+    </div>
+  </section>
+  <!-- Signature Steaks - END -->
+
+  <!-- Menu - START -->
+  <div class="col-12 pb-5" id="menu-area">
+    <div class="row menu ">
+      <div class="menu-title col-12 mt-5 md-5 text-center pt-5 pb-5 mr-0 ml-0 montserrat">
+        <h1>THE MENU</h1>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100 " src="images/salad-one.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/chicken-shawarma.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/salad-two.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">BEEF STEAK PIZZA
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/chicken-kebab.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/burger.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/tandoori-chicken.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/italian-chicken-chips.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/Pizza.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/menu-one.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/grilled-chicken.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/fish-steak.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 p-0 m-0">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/last-menu.jpg" alt="Salmon Steak Image">
+          <span class=" w-100 menu-pricing position-absolute">Menu Item
+            <br>$69.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Menu - END -->
+
+  <!-- Feedback - START -->
+  <div class="col-12 container p-0 mt-5 mb-5">
+    <h1 class="mt-5 mb-5 text-center montserrat">WHAT OUR
+      <i>STEAK</i>HOLDERS SAY</h1>
+    <div class="row m-auto p-5">
+      <div class="card border-0 col-lg-4 col-md-4 col-sm-12 pt-4 w-100">
+        <img class="card-img-top rounded-circle" src="images/customer-two - Copy.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Jeff Mezera</h4>
+          <p class="card-text">Honestly, one of the best steak dinners of my life! My Sirloin platter? A true Masterpiece!</p>
+          <p class="card-text text-secondary font-italic">- July 5th, 2018</p>
+        </div>
+      </div>
+      <div class="card border-0 col-lg-4 col-md-4 col-sm-12 p-4 w-100">
+        <img class="card-img-top rounded-circle" src="images/customer-four - Copy.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Stephanie Liu </h4>
+          <p class="card-text">My boss just promoted me to a Senior Manager position. And the RibEye steak which followed just added perfection
+            to my magical evening :) </p>
+          <p class="card-text text-secondary font-italic">- March 30th, 2018</p>
+        </div>
+      </div>
+      <div class="card border-0 col-lg-4 col-md-4 col-sm-12 pt-4 w-100">
+        <img class="card-img-top rounded-circle" src="images/customer-six - Copy.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Jacqueline and Alice</h4>
+          <p class="card-text">THANK GOD! for this place, we finally had the perfect steak on the last day of our trip. This is place is defintely
+            a jackpot for any meat lover!</p>
+          <p class="card-text text-secondary font-italic">- January 3rd, 2018</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Feedback - END -->
+
+  <!-- Contact Us - START -->
+
+  <section>
+    <div class="position-relative row m-0 p-0">
+      <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+        <div class="col-sm-12 col-md-12 col-lg-12 position-relative p-0 ">
+          <img class="w-100" src="images/contact-us.png" alt="Contact Us">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us - END -->
+
+  <!-- Footer - START -->
+  <footer>
+    <div class="col-12 bg-black p-5">
+      <h1 class="montserrat text-white text-center" id="footer-title">CONNECT WITH US ON</h1>
+      <p id="foot-icons" class="m-auto text-center ">
+        <a href="#" class="text-white">
+          <i class=" h3 fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="text-white">
+          <i class=" h3 fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-white">
+          <i class=" h3 fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-white">
+          <i class=" h3 fab fa-linkedin-in"></i>
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- Footer - END -->
+</body>
+
+</html>

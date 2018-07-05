@@ -1,0 +1,123 @@
+.my-nav {
+    padding: 20px;
+    background-color: transparent ;
+    color: #ffffff;
+    z-index: 2px;
+}
+
+.my-brand{
+    font-family: "Dancing Script";
+}
+.montserrat{
+    font-family: "Montserrat";
+}
+#my-dropdown-menu{
+    background-color: #000000;
+}
+
+#my-dropdown-menu a:hover{
+    color: #000000;
+}
+
+.navbar-toggler{
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.navbar-toggler-icon i{
+    margin-top: 5px;
+}
+
+.bg-black{
+    background-color: #000000;
+}
+
+.my-nav__blue {
+    background-color: #000000 !important;
+    color: brown !important;
+}
+
+.my-brand{
+    font-size: 15px;
+}
+.my-nav .container a, #navbarNav ul li a{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.my-btn{
+    background-color: transparent;
+    padding: 0px;
+    border: 3px solid #000000;
+    border-radius: 0px;
+}
+
+.my-btn p, #art-btn p{
+    padding: 5px 20px 5px 20px;
+}
+
+.my-btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.art-middle{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#art-btn{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0px;
+    border: 3px solid #ffffff !important;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#art-btn:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+#art-top-text{
+    padding-top: 30px;
+}
+
+.pricing{
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color:#641E16;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.menu-pricing{
+    background-color:#000000;
+    color:#ffffff;
+    top: 0%;
+    left: 0px;
+    height: 100%;
+    padding-top: 40%;
+    opacity: 0;
+    text-align: center;
+}
+
+.menu-pricing:hover{
+    opacity: 0.7;
+}
+
+.contact-text{
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color:#641E16;
+    bottom: 0px;
+    right: 0px;
+}
+
+#foot-icons{
+    letter-spacing: 15px;
+}
+
+.fab:hover{
+    color: grey;
+}
